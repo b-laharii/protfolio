@@ -1,0 +1,77 @@
+
+    
+h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    color: rgb(154, 154, 223);
+}
+h1{
+    padding-left: 30px;
+}
+h6{
+    font-family:  sans-serif;
+    color:gold;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+.portfolio-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
