@@ -1,4 +1,4 @@
- @media(width < 900px) {
+@media(width < 900px) {
         .nav-links {
             display: none;
         }
@@ -269,6 +269,18 @@
         padding: 10px 0;
     }
 
-    #contact {
+    .contact a {
+    color: #2600ff; 
+    text-decoration: none; 
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+ .contact{
+    text-align: center;
+ }
+
+    h4{
         text-align: center;
     }
