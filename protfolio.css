@@ -8,7 +8,9 @@
         }
 
         .image,
-        .image2 {
+        .image2,
+        .image3,
+        .image4 {
             grid-area: 1/1/2/2
         }
 
@@ -102,12 +104,12 @@
     }
 
     .about {
-        color: rgb(61, 61, 226);
+        color: rgb(0, 0, 0);
         text-align: left;
         padding-top: 70px;
         max-width: 1200px;
         margin: 0 auto;
-        font-size: large;
+        font-size: x-large;
         padding-left: 50px;
     }
 
@@ -182,7 +184,7 @@
 
     h6 {
         font-family: sans-serif;
-        color: gold;
+        color: rgb(47, 0, 255);
         text-align: center;
     }
 
@@ -218,7 +220,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         max-width: 1200px;
         margin: 0 auto;
-        color: gold;
+        color: rgb(0, 0, 0);
     }
 
     .skills {
@@ -270,17 +272,19 @@
     }
 
     .contact a {
-    color: #2600ff; 
-    text-decoration: none; 
-}
+        color: #2600ff;
+        text-decoration: none;
+    }
 
-.contact a:hover {
-    text-decoration: underline;
-}
- .contact{
-    text-align: center;
- }
+    .contact a:hover {
+        text-decoration: underline;
+    }
 
-    h4{
+    .contact {
         text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+        color: rgb(0, 0, 0);
     }
